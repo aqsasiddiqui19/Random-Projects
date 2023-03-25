@@ -1,0 +1,72 @@
+
+*{box-sizing: border-box;
+padding:0px;
+margin:0px;}
+
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin:10px;
+    padding:5px;
+    text-decoration: underline;
+    text-align:justify;
+  }
+
+h2{
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+ }
+ p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;  
+      padding:2px;
+ }
+
+ a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black; 
+    padding:5px;   
+ }
+
+.flexcontainer{
+    display:flex;
+    border:2px solid black;
+background:lightcyan;
+flex-wrap: wrap;
+width:75%;
+height:100%;
+padding:20px;
+margin:10px;
+justify-content: center;
+}
+
+.flex{    
+    background: red;
+    border:2px solid black;
+    height: 230px;
+    width:230px;
+}
+
+.items1{background:darkgoldenrod;
+transform: rotate(-10deg);
+}
+.items2{background:darkgray;
+    transform: rotate(6deg);}
+.items3{background:darkkhaki;
+    transform: rotate(-8deg);}
+.items4{background:lightpink;
+    transform: rotate(6deg);}
+.items5{background:darkcyan;
+    transform: rotate(-8deg);}
+.items6{background:darkolivegreen;
+    transform: rotate(4deg);}
+    .items7{background:darkorange;
+        transform: rotate(-8deg);}
+    .items8{background:darkslategrey;
+        transform: rotate(8deg);
+    }
